@@ -4,5 +4,10 @@
     font-style: normal;
     color: white;
     margin-left: 18px;
+    text-decoration: none;
+
 }
 
+.header__lang-link.active {
+text-decoration: underline;
+}
