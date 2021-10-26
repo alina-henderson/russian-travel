@@ -1,5 +1,4 @@
 .website__link {
-    margin: 0 16px;
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
@@ -11,10 +10,10 @@
     opacity: 80%;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .website__link {
         grid-column-start: 1;
-        grid-row-start: 4;
-        margin: 0;
+        grid-row-start: 2;
+        align-self: end;
     }
 }

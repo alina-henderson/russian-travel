@@ -1,0 +1,13 @@
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (min-width:768px) {
+    .text {
+        
+        row-gap: 25px;
+        margin: 48px 0 0 0;
+      }
+}

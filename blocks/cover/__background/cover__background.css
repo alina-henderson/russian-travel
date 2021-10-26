@@ -3,10 +3,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 1;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 62.5vw;
+    box-sizing: border-box;
+
 }
 
 .cover__background::before {

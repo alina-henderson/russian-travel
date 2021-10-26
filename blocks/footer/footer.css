@@ -1,7 +1,15 @@
 .footer {
     margin-left: 16px;
-    margin-bottom: 24px;
     box-sizing: border-box;
     background-color: #2A2C2F;
-    min-height: 350px;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px 24px;
+        margin: 0;
+    }
 }

@@ -1,0 +1,23 @@
+.text__paragraph {
+    margin: 0 16px 25px;
+    font-size: 16px;
+    line-height: 26.08px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text__paragraph:last-child {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width:768px) {
+    .text__paragraph {
+        margin: 0;
+        grid-row: 2;
+        grid-column: 2;
+        padding: 0;
+    }
+    .text__paragraph:last-child {
+        margin-bottom: 0;
+    }
+}

@@ -4,4 +4,5 @@
     height: 62.5vw;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
 }

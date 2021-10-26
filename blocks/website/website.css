@@ -1,5 +1,13 @@
 .website{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 0 16px;
+}
+@media screen and (min-width:768px) {
+  .website {
+      padding: 0;
+      row-gap: 12px;
+    }
+  }
 }
