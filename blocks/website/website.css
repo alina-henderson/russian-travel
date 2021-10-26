@@ -1,13 +1,14 @@
-.website{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+.website {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
   padding: 0 16px;
+  row-gap: 12px;
 }
-@media screen and (min-width:768px) {
+
+@media screen and (min-width: 768px) {
   .website {
       padding: 0;
-      row-gap: 12px;
-    }
+      align-self: end;
   }
 }

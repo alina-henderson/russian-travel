@@ -6,3 +6,9 @@
     background-position: center;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 1024px)  {
+    .lead__image {
+        max-width: 100%;
+    }
+}

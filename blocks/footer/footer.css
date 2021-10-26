@@ -13,3 +13,10 @@
         margin: 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer {
+       padding: 0 48px 24px;
+        margin: 0;
+    }
+}

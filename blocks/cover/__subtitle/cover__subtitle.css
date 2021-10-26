@@ -12,6 +12,9 @@
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        margin: 32px 204px 0;
+        margin: 32px 0;
     }
+}
+
+@media screen and (min-width: 768px) {
 }

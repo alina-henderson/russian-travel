@@ -10,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .text__paragraph {
         margin: 0;
         grid-row: 2;
@@ -19,5 +19,12 @@
     }
     .text__paragraph:last-child {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .text__paragraph {
+        font-size: 18px;
+        line-height: 29.34px;
     }
 }

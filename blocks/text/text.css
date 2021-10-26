@@ -4,10 +4,16 @@
 }
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .text {
-        
         row-gap: 25px;
+        margin: 48px 0 0 0;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+    .text {
+        row-gap: 27px;
         margin: 48px 0 0 0;
       }
 }

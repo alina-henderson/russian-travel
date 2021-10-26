@@ -7,8 +7,15 @@
     margin: 8px 0 64px 16px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .lead__caption {
         margin: 8px 0 88px 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        margin-bottom: 92px;
+        margin-left: 48px;
     }
 }

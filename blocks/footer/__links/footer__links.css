@@ -8,5 +8,12 @@
 @media screen and (min-width: 768px) {
     .footer__links {
         flex-direction: row;
+        gap: 18px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__links {
     }
 }
