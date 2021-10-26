@@ -6,3 +6,11 @@
     font-style: normal;
     color: #AAAAAA;
 }
+
+@media screen and (min-width:768px) {
+    .website__url-heading {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        margin: 0;
+    }
+}

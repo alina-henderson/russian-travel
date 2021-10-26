@@ -6,3 +6,15 @@
     font-style: normal;
     color: white;
 }
+
+.website__link:hover {
+    opacity: 80%;
+}
+
+@media screen and (min-width:768px) {
+    .website__link {
+        grid-column-start: 1;
+        grid-row-start: 4;
+        margin: 0;
+    }
+}
