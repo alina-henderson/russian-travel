@@ -15,7 +15,6 @@
 
 @media screen and (min-width: 1024px) {
     .lead__caption {
-        margin-bottom: 92px;
-        margin-left: 48px;
+        margin: 0;
     }
 }

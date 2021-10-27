@@ -7,12 +7,6 @@
     color: #AAAAAA;
 }
 
-@media screen and (min-width: 768px) {
-    .website__url-heading {
-
-    }
-}
-
 @media screen and (min-width: 1024px) {
     .website__url-heading {
         line-height: 20.4px;

@@ -8,10 +8,22 @@
     margin-bottom: 16px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .lead__title {
         font-size: 96px;
         line-height: 100px;
         margin-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__title {
+        padding: 0 140px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__title {
+        padding: 0 150px;
     }
 }

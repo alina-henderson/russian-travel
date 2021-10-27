@@ -4,19 +4,23 @@
 
 @media screen and (min-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 340fr 352fr;
         grid-template-rows: repeat(3, min-content);
         grid-auto-flow: dense;
         column-gap: 28px;
     }
 }
 
-
 @media screen and (min-width: 1024px) {
     .place {
         grid-template-columns: 440fr 456fr;
-        grid-template-rows: repeat(3, min-content);
-        grid-auto-flow: dense;
         column-gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        grid-template-columns: 460fr 484fr;
+        column-gap: 40px;
     }
 }

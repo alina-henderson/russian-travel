@@ -9,9 +9,3 @@
 .website__link:hover {
     opacity: 80%;
 }
-
-@media screen and (min-width: 768px) {
-    .website__link {
-
-    }
-}

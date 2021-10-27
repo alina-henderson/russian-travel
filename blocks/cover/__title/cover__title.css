@@ -3,9 +3,15 @@
     line-height: 35px;
     font-weight: 900;
     font-style: normal;
+    text-decoration: none;
+    color: white;
     text-align: center;
-    margin: 33px 16px 16px 16px;
+    margin: 33px 35px 16px;
     z-index: 4;
+}
+
+.cover__title:hover {
+    opacity: 80%;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,14 +20,23 @@
         line-height: 76px;
         margin: 0;
         margin-top: 15vw;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__title {
-        font-size: 72px;
-        line-height: 76px;
-        margin: 0;
-        margin-top: 19vw;
+        margin-top: 19%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__title {
+        margin-top: 20.693%;
+        margin-left: 28%;
+        margin-right: 28%;
     }
 }

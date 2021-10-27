@@ -8,8 +8,12 @@
     text-align: right;
 }
 
+.header__lang-link:hover {
+    opacity: 80%;
+}
+
 .header__lang-link.active {
-text-decoration: underline;
+    text-decoration: underline;
 }
 
 @media screen and (min-width:768px) {

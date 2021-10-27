@@ -4,14 +4,25 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin: 0;
-    margin-bottom: 40px;
+    margin: 0 10% 40px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     .lead__subtitle {
         font-size: 30px;
         line-height: 36px;
-        margin: 0 64px 56px 64px;
+        margin: 0 15% 56px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__subtitle {
+        margin: 0 20% 56px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__subtitle {
+        margin: 0 25% 64px;
     }
 }

@@ -19,3 +19,12 @@
         margin-bottom: 92px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin: 0 48px 92px;
+        width: calc(100vw - 96px);
+        height: calc(0.625*(100vw - 96px));
+        position: relative;
+    }
+}
