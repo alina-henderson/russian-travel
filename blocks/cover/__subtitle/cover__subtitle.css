@@ -5,19 +5,19 @@
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    margin: 0 10%;
+    margin: 16px 10% 0;
 }
 
 @media screen and (min-width: 768px) {
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
-        margin: 32px 25%;
+        margin: 32px 25% 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .cover__subtitle {
-        margin: 32px 30%;
+        margin: 32px 30% 0;
     }
 }

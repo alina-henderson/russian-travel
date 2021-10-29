@@ -3,6 +3,7 @@
     box-sizing: border-box;
     background-color: #2A2C2F;
     padding-bottom: 24px;
+    padding-top: 64px;
 }
 
 @media screen and (min-width: 768px) {
