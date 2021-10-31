@@ -6,6 +6,7 @@
   font-style: normal;
   color: #AAAAAA;
   letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 1024px) {

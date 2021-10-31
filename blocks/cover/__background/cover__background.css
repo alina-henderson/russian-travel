@@ -27,7 +27,7 @@
 
 .cover__background:hover::before {
     opacity: 0.8;
-    z-index: 5;
+    z-index: 2;
 }
 
 @media screen and (min-width: 1280px) {
